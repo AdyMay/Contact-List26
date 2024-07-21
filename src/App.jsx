@@ -6,6 +6,7 @@ import "./App.css";
 
 function App() {
   const [selectedContactId, setSelectedContactId] = useState(null);
+
   return (
     <>
       {selectedContactId ? (
